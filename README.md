@@ -1,8 +1,16 @@
 # glacier-os &nbsp; [![bluebuild build badge](https://github.com/grondalf/glacier-os/actions/workflows/build.yml/badge.svg)](https://github.com/grondalf/glacier-os/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+Glacier OS is an immutable atomic image based on Universal Blue's version of Fedora Silverblue and built using a BlueBuild template. Made for laptops with undervolting support and NVIDIA Pascal Series GPUs, all provided images are intended solely for personal use and playground purposes only.
 
-After setup, it is recommended you update this README to describe your custom image.
+## System changes
+
+- NVIDIA propietary drivers from negativo17.
+- Electronic signtures support with Autofirma.
+- Undervolt support with throttled.
+- Cloud sync with Insync.
+- A selection of useful extensions have been included along with a few modifications to GNOME's defaults.
+- A bunch of useful pre-installed rpm packages and flatpaks.
+
 
 ## Installation
 
