@@ -44,6 +44,7 @@ modules:
       packages:
         - steam-devices
         - android-tools
+        - papirus-icon-theme
 
     remove:
       auto-remove: true
@@ -87,8 +88,6 @@ modules:
         
   - type: script
     scripts:
-      - setup-papirus.sh
-      - setup-flathub.sh
       - setup-autofirma.sh
       
   - type: default-flatpaks
